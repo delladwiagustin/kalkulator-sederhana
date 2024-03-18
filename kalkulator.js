@@ -28,3 +28,9 @@ function bagi(angka1, angka2) {
 }
 var hasilBagi = bagi(6, 3);
 console.log("Hasil pembagian: " + hasilBagi);
+
+function modulus(angka1, angka2) {
+    return angka1 % angka2;
+}
+var hasilModulus = modulus(5, 3);
+console.log("Hasil modulus: " + hasilModulus);
