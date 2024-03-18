@@ -15,3 +15,14 @@ function kali(angka1, angka2) {
 }
 var hasilKali = kali(5, 3);
 console.log("Hasil perkalian: " + hasilKali);
+
+function bagi(angka1, angka2) {
+    // Periksa apakah angka2 adalah nol
+    if (angka2 === 0) {
+        return "Tidak bisa dibagi dengan nol";
+    } else {
+        return angka1 / angka2;
+    }
+}
+var hasilBagi = bagi(10, 2);
+console.log("Hasil pembagian: " + hasilBagi);
