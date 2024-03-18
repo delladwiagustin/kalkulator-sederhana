@@ -26,3 +26,9 @@ function bagi(angka1, angka2) {
 }
 var hasilBagi = bagi(10, 2);
 console.log("Hasil pembagian: " + hasilBagi);
+
+function modulus(angka1, angka2) {
+    return angka1 % angka2;
+}
+var hasilModulus = modulus(11, 2);
+console.log("Hasil modulus: " + hasilModulus);
